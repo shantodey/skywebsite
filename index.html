@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyWeb</title>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/027b68daa1.js" crossorigin="anonymous"></script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <section id="title">
+        <div class="container-fluid">
+
+
+            <!-- navigation bar -->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="">SkyWeb</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cta">Download</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- title -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1>Explore the Celestial.</h1>
+                    <button type="button" class="btn btn-info btn-lg download-button"><i class="fab fa-apple"></i>
+                        Download</button>
+                    <button type="button" class="btn btn-outline-light btn-lg download-button"><i
+                            class="fab fa-google-play"></i> Download</button>
+                </div>
+                <div class="col-lg-6">
+                    <img class="title-image" src="my_images/iphone-sky.png" alt="iphone-sky-capture">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- features -->
+    <section id="features">
+        <div class="row">
+            <div class="col-lg-4 feature-column">
+                <i class="fas fa-check-circle feature-icon"></i>
+                <h3>Easy to use</h3>
+                <p>As easy as looking at the sky!</p>
+            </div>
+            <div class="col-lg-4 feature-column">
+                <i class="fas fa-atom feature-icon"></i>
+                <h3>Elite Opinions</h3>
+                <p>We have expert opinions to guide you on special occasions.</p>
+            </div>
+            <div class="col-lg-4 feature-column">
+                <i class="fas fa-crosshairs feature-icon"></i>
+                <h3>Guaranteed to Work</h3>
+                <p> Didn't Work for you? Get your money back in first 30 days!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="carousel slide" data-ride="false" data>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <h2>"Since I got SkyWeb, I feel like an ISRO scientist" </h2>
+                <img class="testimonial-image" src="my_images/face.png" alt="user-profile">
+                <em>Nithin, Bombay</em>
+            </div>
+            <div class="carousel-item">
+                <h2>"Just like actually looking through the Hubble Telescope"</h2>
+                <img class="testimonial-image" src="my_images/girl-face.png" alt="user-profile">
+                <em>Priyanka, Jaipur</em>
+            </div>
+            <div class="carousel-item">
+                <h2>"The telescope view is just 10% of the SkyWeb, very informative app"</h2>
+                <img class="testimonial-image" src="my_images/hair.png" alt="user-profile">
+                <em>Ajay, Guwahati</em>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#testimonials" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#testimonials" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </section>
+
+    <!-- Press -->
+    <section id="press">
+        <img class="press-logo" src="my_images/TechCrunch.png" alt="tech-crunch logo">
+        <img class="press-logo" src="my_images/tnw.png" alt="tnw-logo">
+        <!-- <img class="press-logo" src="my_images/bizinsider.png" alt="biz-insider-logo"> -->
+        <img class="press-logo" src="my_images/mashable.png" alt="mashable-logo">
+
+    </section>
+    <!-- Pricing -->
+    <section id="pricing">
+        <h2>A Plan to feed the Curiosity</h2>
+        <p>Affordable price plans for everyone.</p>
+        <h2>Gaze remotely through our Powerful Telescope:</br> The Cyclops</h2>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Free</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>15 minutes of Through-Cyclops-Observation per day</p>
+                        <p>Unlimited sky-mapping through phone camera </p>
+                        <p>Unlimited access to expert opinions</p>
+                        <button type="button" class="btn btn-block btn-outline-dark btn-lg signin">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3> ₹ 500 / mo </h3>
+                    </div>
+                    <div class="card-body">
+                        <p>3 hours of Through-Cyclops-Observation per day</p>
+                        <p>Unlimited sky-mapping through phone camera </p>
+                        <p>Unlimited access to expert opinions</p>
+                        <button type="button" class="btn btn-block btn-dark btn-lg">Register</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3> ₹ 800 / mo </h3>
+                    </div>
+                    <div class="card-body">
+                        <p>5 hours of Through-Cyclops-Observation per day</p>
+                        <p>Unlimited sky-mapping through phone camera </p>
+                        <p>Unlimited access to expert opinions</p>
+                        <button type="button" class="btn btn-block btn-dark btn-lg">Register</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Call to action -->
+    <section id="cta">
+        <div class="call-to-action">
+            <h2>Start your space exploration TODAY!!!</h2>
+            <button type="button" class="cta-button btn btn-primary btn-dark btn-lg"><i class="fab fa-apple"></i>
+                Download</button>
+            <button type="button" class="cta-button btn btn-outline-light btn-lg"><i class="fab fa-google-play"></i>
+                Download</button>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="div-footer">
+            <a href="https://www.twitter.com"><i class="fab fa-twitter fa-2x footer-icon"></i></a>
+            <a href="https://www.facebook.com"><i class="fab fa-facebook-f fa-2x footer-icon"></i></a>
+            <a href="https://www.instagram.com"><i class="fab fa-instagram fa-2x footer-icon"></i></a>
+        </div>
+        <p>© Copyright 2020 SHANTO DEY</p>
+    </footer>
+
+
+</body>
+
+</html>
